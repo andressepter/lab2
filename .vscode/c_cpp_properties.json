@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${env:HOME}/Insync/andres.septer@gmail.com/Google Drive/___KOOL23/embed-IAS0330/septer-eslabs/inc",
-                "${workspaceFolder}/../inc/**"
+                "${workspaceFolder}/../common/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
