@@ -1,9 +1,9 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "bump.h"
-#include "delay.h"
-#include "clock.h"
+#include "inc/bump.h"
+#include "inc/delay.h"
+#include "inc/clock.h"
 
 void DebugDump(uint8_t bump) {
     // write this as part of Lab 2
