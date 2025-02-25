@@ -1,0 +1,280 @@
+execve("/usr/bin/make", ["make"], 0x7ffc6d6f5560 /* 76 vars */) = 0
+brk(NULL)                               = 0x58cf34de5000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=242763, ...}) = 0
+mmap(NULL, 242763, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7d7741a2e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libguile-3.0.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1271120, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7d7741a2c000
+mmap(NULL, 1306144, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d77418ed000
+mmap(0x7d7741917000, 798720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7d7741917000
+mmap(0x7d77419da000, 266240, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xed000) = 0x7d77419da000
+mmap(0x7d7741a1b000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12e000) = 0x7d7741a1b000
+mmap(0x7d7741a23000, 36384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7d7741a23000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`v\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+fstat(3, {st_mode=S_IFREG|0755, st_size=2014520, ...}) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+mmap(NULL, 2038904, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d77416fb000
+mmap(0x7d774171f000, 1511424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7d774171f000
+mmap(0x7d7741890000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x195000) = 0x7d7741890000
+mmap(0x7d77418df000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7d77418df000
+mmap(0x7d77418e5000, 31864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7d77418e5000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libgc.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=187408, ...}) = 0
+mmap(NULL, 440368, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d774168f000
+mmap(0x7d7741696000, 118784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7d7741696000
+mmap(0x7d77416b3000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7d77416b3000
+mmap(0x7d77416bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7d77416bb000
+mmap(0x7d77416bd000, 251952, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7d77416bd000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libffi.so.8", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=43240, ...}) = 0
+mmap(NULL, 42256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d7741684000
+mmap(0x7d7741686000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7d7741686000
+mmap(0x7d774168c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7d774168c000
+mmap(0x7d774168d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7d774168d000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libunistring.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1976368, ...}) = 0
+mmap(NULL, 1976584, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d77414a1000
+mmap(0x7d77414b0000, 278528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7d77414b0000
+mmap(0x7d77414f4000, 1617920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x53000) = 0x7d77414f4000
+mmap(0x7d774167f000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1de000) = 0x7d774167f000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=678528, ...}) = 0
+mmap(NULL, 676464, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d77413fb000
+mmap(0x7d774140c000, 503808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7d774140c000
+mmap(0x7d7741487000, 94208, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8c000) = 0x7d7741487000
+mmap(0x7d774149e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa3000) = 0x7d774149e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libcrypt.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=161816, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7d77413f9000
+mmap(NULL, 192768, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d77413c9000
+mmap(0x7d77413ca000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7d77413ca000
+mmap(0x7d77413db000, 81920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7d77413db000
+mmap(0x7d77413ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7d77413ef000
+mmap(0x7d77413f1000, 28928, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7d77413f1000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1010008, ...}) = 0
+mmap(NULL, 1012040, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d77412d1000
+mmap(0x7d77412e0000, 548864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7d77412e0000
+mmap(0x7d7741366000, 397312, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x95000) = 0x7d7741366000
+mmap(0x7d77413c7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf5000) = 0x7d77413c7000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7d77412cf000
+arch_prctl(ARCH_SET_FS, 0x7d77412cfb80) = 0
+set_tid_address(0x7d77412cfe50)         = 482641
+set_robust_list(0x7d77412cfe60, 24)     = 0
+rseq(0x7d77412cfac0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7d77418df000, 16384, PROT_READ) = 0
+mprotect(0x7d77413c7000, 4096, PROT_READ) = 0
+mprotect(0x7d77413ef000, 4096, PROT_READ) = 0
+mprotect(0x7d774149e000, 8192, PROT_READ) = 0
+mprotect(0x7d774167f000, 16384, PROT_READ) = 0
+mprotect(0x7d774168d000, 4096, PROT_READ) = 0
+mprotect(0x7d77416bb000, 4096, PROT_READ) = 0
+mprotect(0x7d7741a1b000, 24576, PROT_READ) = 0
+mprotect(0x58cf03cbd000, 4096, PROT_READ) = 0
+mprotect(0x7d7741aa5000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7d7741a2e000, 242763)          = 0
+getrandom("\x69\x66\x9d\xf9\xb5\x71\x9a\x7c", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x58cf34de5000
+brk(0x58cf34e06000)                     = 0x58cf34e06000
+fcntl(0, F_GETFD)                       = 0
+fcntl(1, F_GETFD)                       = 0
+fcntl(2, F_GETFD)                       = 0
+fstat(1, {st_mode=S_IFREG|0644, st_size=7821, ...}) = 0
+fstat(2, {st_mode=S_IFREG|0644, st_size=7877, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5654416, ...}) = 0
+mmap(NULL, 5654416, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7d7740c00000
+close(3)                                = 0
+rt_sigaction(SIGHUP, {sa_handler=0x58cf03c8e1c0, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=0x58cf03c8e1c0, sa_mask=[QUIT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=0x58cf03c8e1c0, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x58cf03c8e1c0, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x58cf03c8e1c0, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, {sa_handler=0x58cf03c8e1c0, sa_mask=[XCPU], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=0x58cf03c8e1c0, sa_mask=[XFSZ], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+fstat(1, {st_mode=S_IFREG|0644, st_size=9615, ...}) = 0
+fcntl(1, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+fcntl(1, F_SETFL, O_WRONLY|O_APPEND|O_LARGEFILE) = 0
+fstat(2, {st_mode=S_IFREG|0644, st_size=9802, ...}) = 0
+fcntl(2, F_GETFL)                       = 0x8401 (flags O_WRONLY|O_APPEND|O_LARGEFILE)
+fcntl(2, F_SETFL, O_WRONLY|O_APPEND|O_LARGEFILE) = 0
+getcwd("/home/asepter/Insync/andres.septer@gmail.com/Google Drive/___KOOL23/embed-IAS0330/septer-eslabs/lab2", 4096) = 101
+ioctl(1, TCGETS, 0x7fff01198050)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, TCGETS, 0x7fff01198050)        = -1 ENOTTY (Inappropriate ioctl for device)
+newfstatat(AT_FDCWD, "/usr/gnu/include", 0x7fff01198010, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/local/include", {st_mode=S_IFDIR|0755, st_size=0, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/include", {st_mode=S_IFDIR|0755, st_size=26362, ...}, 0) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x58cf03c95970, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+rt_sigaction(SIGUSR1, {sa_handler=0x58cf03c958b0, sa_mask=[USR1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7d7741738cd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+brk(0x58cf34e27000)                     = 0x58cf34e27000
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=174, ...}, 0) = 0
+openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=174, ...}) = 0
+getdents64(3, 0x58cf34e06b80 /* 15 entries */, 32768) = 456
+getdents64(3, 0x58cf34e06b80 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "Makefile", O_RDONLY)  = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1593, ...}) = 0
+read(3, "CC = arm-none-eabi-gcc\n\n# The lo"..., 4096) = 1593
+pipe2([4, 5], 0)                        = 0
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+newfstatat(AT_FDCWD, "/usr/local/sbin/which", 0x7fff011972c0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/local/bin/which", 0x7fff011972c0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/bin/which", {st_mode=S_IFREG|0755, st_size=27208, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/which", X_OK)          = 0
+newfstatat(AT_FDCWD, "/usr/bin/which", {st_mode=S_IFREG|0755, st_size=27208, ...}, 0) = 0
+mmap(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7d7741a61000
+rt_sigprocmask(SIG_BLOCK, ~[], [CHLD], 8) = 0
+clone3({flags=CLONE_VM|CLONE_VFORK|CLONE_CLEAR_SIGHAND, exit_signal=SIGCHLD, stack=0x7d7741a61000, stack_size=0x9000}, 88) = 482642
+munmap(0x7d7741a61000, 36864)           = 0
+rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+close(5)                                = 0
+read(4, "/usr/bin/arm-none-eabi-gcc\n", 200) = 27
+read(4, "", 173)                        = 0
+close(4)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 482642
+pipe2([4, 5], 0)                        = 0
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+newfstatat(AT_FDCWD, "/usr/local/sbin/readlink", 0x7fff01197480, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/local/bin/readlink", 0x7fff01197480, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/bin/readlink", {st_mode=S_IFREG|0755, st_size=43168, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/readlink", X_OK)       = 0
+newfstatat(AT_FDCWD, "/usr/bin/readlink", {st_mode=S_IFREG|0755, st_size=43168, ...}, 0) = 0
+mmap(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7d7741a61000
+rt_sigprocmask(SIG_BLOCK, ~[], [CHLD], 8) = 0
+clone3({flags=CLONE_VM|CLONE_VFORK|CLONE_CLEAR_SIGHAND, exit_signal=SIGCHLD, stack=0x7d7741a61000, stack_size=0x9000}, 88) = 482643
+munmap(0x7d7741a61000, 36864)           = 0
+rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+close(5)                                = 0
+read(4, "", 200)                        = 0
+close(4)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 1}], 0, NULL) = 482643
+pipe2([4, 5], 0)                        = 0
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+newfstatat(AT_FDCWD, "/usr/local/sbin/dirname", 0x7fff01197650, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/local/bin/dirname", 0x7fff01197650, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=34944, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/dirname", X_OK)        = 0
+newfstatat(AT_FDCWD, "/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=34944, ...}, 0) = 0
+mmap(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7d7741a61000
+rt_sigprocmask(SIG_BLOCK, ~[], [CHLD], 8) = 0
+clone3({flags=CLONE_VM|CLONE_VFORK|CLONE_CLEAR_SIGHAND, exit_signal=SIGCHLD, stack=0x7d7741a61000, stack_size=0x9000}, 88) = 482644
+munmap(0x7d7741a61000, 36864)           = 0
+rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0
+close(5)                                = 0
+read(4, dirname: missing operand
+Try 'dirname --help' for more information.
+"", 200)                        = 0
+close(4)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 1}], 0, NULL) = 482644
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "RCS", 0x7fff01197fa0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "SCCS", 0x7fff01197fa0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "Makefile", {st_mode=S_IFREG|0644, st_size=1593, ...}, 0) = 0
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=174, ...}, 0) = 0
+openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=174, ...}) = 0
+getdents64(3, 0x58cf34e127d0 /* 15 entries */, 32768) = 456
+getdents64(3, 0x58cf34e127d0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "all", 0x7fff01195d60, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "lab.out", {st_mode=S_IFREG|0755, st_size=97832, ...}, 0) = 0
+newfstatat(AT_FDCWD, "main.o", {st_mode=S_IFREG|0644, st_size=3532, ...}, 0) = 0
+newfstatat(AT_FDCWD, "main.c", {st_mode=S_IFREG|0644, st_size=483, ...}, 0) = 0
+newfstatat(AT_FDCWD, "bump.o", {st_mode=S_IFREG|0644, st_size=2964, ...}, 0) = 0
+newfstatat(AT_FDCWD, "../common/bump.c", {st_mode=S_IFREG|0644, st_size=206, ...}, 0) = 0
+newfstatat(AT_FDCWD, "../common", {st_mode=S_IFDIR|0755, st_size=152, ...}, 0) = 0
+openat(AT_FDCWD, "../common", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=152, ...}) = 0
+getdents64(3, 0x58cf34e14bf0 /* 12 entries */, 32768) = 384
+getdents64(3, 0x58cf34e14bf0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "../common/RCS", 0x7fff01196800, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "../common/SCCS", 0x7fff01196800, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "delay.o", {st_mode=S_IFREG|0644, st_size=3584, ...}, 0) = 0
+newfstatat(AT_FDCWD, "../common/delay.c", {st_mode=S_IFREG|0644, st_size=379, ...}, 0) = 0
+newfstatat(AT_FDCWD, "clock.o", {st_mode=S_IFREG|0644, st_size=8156, ...}, 0) = 0
+newfstatat(AT_FDCWD, "../common/clock.c", {st_mode=S_IFREG|0644, st_size=4228, ...}, 0) = 0
+newfstatat(AT_FDCWD, "system.o", {st_mode=S_IFREG|0644, st_size=12156, ...}, 0) = 0
+newfstatat(AT_FDCWD, "../system.c", {st_mode=S_IFREG|0644, st_size=15004, ...}, 0) = 0
+newfstatat(AT_FDCWD, "..", {st_mode=S_IFDIR|0755, st_size=174, ...}, 0) = 0
+openat(AT_FDCWD, "..", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=174, ...}) = 0
+getdents64(3, 0x58cf34e14bf0 /* 15 entries */, 32768) = 424
+getdents64(3, 0x58cf34e14bf0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "../RCS", 0x7fff01196830, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "../SCCS", 0x7fff01196830, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "startup.o", {st_mode=S_IFREG|0644, st_size=6348, ...}, 0) = 0
+newfstatat(AT_FDCWD, "../startup.c", {st_mode=S_IFREG|0644, st_size=12719, ...}, 0) = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2998, ...}) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2998
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+fstat(1, {st_mode=S_IFREG|0644, st_size=20549, ...}) = 0
+write(1, "make: Nothing to be done for 'al"..., 36make: Nothing to be done for 'all'.
+) = 36
+chdir("/home/asepter/Insync/andres.septer@gmail.com/Google Drive/___KOOL23/embed-IAS0330/septer-eslabs/lab2") = 0
+close(1)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
