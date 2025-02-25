@@ -5,7 +5,7 @@ CC = arm-none-eabi-gcc
 # is installed.
 ARMGCC_ROOT := ${shell dirname ${shell readlink ${shell which ${CC}}}}/..
 
-ROOT ?= $(abspath ..)
+ROOT ?= $(abspath ../..)
 #confused
 #ROOT ?= $(abspath ../..)
 
