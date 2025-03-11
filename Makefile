@@ -5,10 +5,6 @@ CC = arm-none-eabi-gcc
 # is installed.
 ARMGCC_ROOT := ${shell dirname ${shell readlink ${shell which ${CC}}}}/..
 
-ROOT ?= $(abspath ..)
-#confused
-#ROOT ?= $(abspath ../..)
-
 OBJECTS = main.o bump.o delay.o clock.o system.o startup.o
 
 NAME = lab
